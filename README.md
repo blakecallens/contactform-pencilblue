@@ -25,4 +25,4 @@ Installation and Setup
 
 4. Add the `^tmp_contact_form^` directive to any HTML template and the contact form will now be automatically loaded.
 
-5. If not already done so, make sure the PencilBlue email system is setup correctly (/admin/site_settings/email).
+5. If not already done so, make sure the PencilBlue email system is setup correctly. (/admin/site_settings/email)
