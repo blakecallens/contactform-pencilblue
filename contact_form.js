@@ -1,11 +1,11 @@
 /**
- * Fidelity - A site theme for Fidelity UK
+ * Contact Form - Display a contact form on your PencilBlue site.
  *
  * @author Alex Curtis <alex.curtis@madebypavilion.com>
  * @copyright 2015 Made By Pavilion Ltd.
  */
 
-function Fidelity(){}
+function ContactForm(){}
 
 /**
  * Called when the application is being installed for the first time.
@@ -13,7 +13,7 @@ function Fidelity(){}
  * @param cb A callback that must be called upon completion.  cb(err, result).
  * The result is ignored
  */
-Fidelity.onInstall = function(cb) {
+ContactForm.onInstall = function(cb) {
     cb(null, true);
 };
 
@@ -25,7 +25,7 @@ Fidelity.onInstall = function(cb) {
  * @param cb A callback that must be called upon completion.  cb(err, result).
  * The result is ignored
  */
-Fidelity.onUninstall = function(cb) {
+ContactForm.onUninstall = function(cb) {
     cb(null, true);
 };
 
@@ -37,7 +37,7 @@ Fidelity.onUninstall = function(cb) {
  * @param cb A callback that must be called upon completion.  cb(err, result).
  * The result is ignored
  */
-Fidelity.onStartup = function(cb) {
+ContactForm.onStartup = function(cb) {
     pb.TemplateService.registerGlobal('contact_form_css', function(flag, cb) {
         pb.plugins.getSetting('css', 'contactform-pencilblue', function(err, css) {
             cb(err, css);
@@ -58,9 +58,9 @@ Fidelity.onStartup = function(cb) {
  * @param cb A callback that must be called upon completion.  cb(err, result).
  * The result is ignored
  */
-Fidelity.onShutdown = function(cb) {
+ContactForm.onShutdown = function(cb) {
     cb(null, true);
 };
 
 //exports
-module.exports = Fidelity;
+module.exports = ContactForm;
