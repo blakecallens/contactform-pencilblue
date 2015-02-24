@@ -10,7 +10,7 @@
     "settings": [
         {
             "name": "css",
-            "value": "/public/contact_form/css/contact_form.css"
+            "value": "/public/contactform-pencilblue/css/contact_form.css"
         },
         {
             "name": "show_phone",

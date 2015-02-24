@@ -18,7 +18,7 @@ Installation and Setup
 
     Setting         | Description               | Default                                        
     ----------------|---------------------------|------------------------------------------
-    Css             | CSS File Path             | /public/contact_form/css/contact_form.css     
+    Css             | CSS File Path             | /public/contactform-pencilblue/css/contact_form.css     
     Show phone      | Show Optional Phone Field | true                                          
     Email to        | Destination Email Address | user@pencilblue.org                           
     Email template  | HTML Email Template       | email/default                                 
