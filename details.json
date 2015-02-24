@@ -1,0 +1,41 @@
+{
+    "uid": "contact-form",
+    "name": "Contact Form",
+    "description": "Display a contact form on your PencilBlue site.",
+    "version": "0.0.1",
+    "author": {
+        "name": "Alex Curtis",
+        "email": "alx.curtis@gmail.com"
+    },
+    "settings": [
+        {
+            "name": "css",
+            "value": "/public/contact_form/css/contact_form.css"
+        },
+        {
+            "name": "show_phone",
+            "value": true
+        },
+        {
+            "name": "email_to",
+            "value": "user@pencilblue.org"
+        },
+        {
+            "name": "email_template",
+            "value": "email/default"
+        }
+    ],
+    "permissions": {
+        "ACCESS_USER": [],
+        "ACCESS_WRITER": [],
+        "ACCESS_EDITOR": [],
+        "ACCESS_MANAGING_EDITOR": []
+    },
+    "main_module": {
+        "path": "contact_form.js"
+    },
+    "theme": {
+        "settings": [],
+        "content_templates": []
+    }
+}

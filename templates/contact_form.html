@@ -1,0 +1,57 @@
+<script type="text/javascript">
+    $('<link rel="stylesheet" type="text/css" href="^contact_form_css^">').appendTo(document.head);
+</script>
+<script src="/public/contact_form/js/lib/jquery.validate.min.js"></script>
+<script src="/public/contact_form/js/contact_form.js" defer></script>
+
+<div class="container">
+    <div class="row">
+        <div class="contactform">
+            <div class="col-12 col-sm-12 col-lg-12">
+                <h2>Contact Form</h2>
+                <p>Please fill out the form below and we will get back to you.</p>
+
+                <form role="form" id="ContactForm">
+                    <div class="form-group has-feedback">
+                        <label class="control-label" for="name">Name</label>
+                        <input type="text" class="form-control input-sm" id="name" name="name" placeholder="Enter your name" />
+                        <span class="help-block">Please enter your name.</span>
+                    </div>
+                    <div class="form-group has-feedback" style="^contact_form_phone^">
+                        <label class="control-label" for="phone">Phone (Optional)</label>
+                        <input type="tel" class="form-control input-sm optional" id="phone" name="phone" placeholder="Enter your phone (Optional)"/>
+                        <span class="help-block">Please enter a valid phone number.</span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label class="control-label" for="email">Email Address</label>
+                        <input type="email" class="form-control input-sm" id="email" name="email" placeholder="Enter your email" />
+                        <span class="help-block">Please enter a valid e-mail address.</span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label class="control-label" for="subject">Subject</label>
+                        <input type="text" class="form-control input-sm" id="subject" name="subject" placeholder="Enter the subject" />
+                        <span class="help-block">Please enter a subject.</span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label class="control-label" for="message">Message</label>
+                        <textarea rows="5" cols="30" class="form-control input-sm" id="message" name="message" placeholder="Enter your message" ></textarea>
+                        <span class="help-block">Please enter a message.</span>
+                    </div>
+                    <div class="alerts">
+                        <div id="SendingAlert" class="alert alert-info alerter" role="alert">
+                            <div class="glyphicon glyphicon-refresh glyphicon-spin"></div>
+                            <div class="alert-text"> ^loc_CF_CLIENT_SENDING^ </div>
+                        </div>
+                        <div id="ErrorAlert" class="alert alert-danger alerter" role="alert">
+                            ^loc_CF_CLIENT_ERROR^
+                        </div>
+                        <div id="SuccessAlert" class="alert alert-success alerter" role="alert">
+                            ^loc_CF_CLIENT_SUCCESS^
+                        </div>
+                    </div>
+                    <button type="submit" id="ContactSubmit" class="btn btn-primary btn-lg submit-button">Send Feedback</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

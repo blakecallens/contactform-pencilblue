@@ -1,0 +1,8 @@
+{
+    "CF_API_VALIDATION": "There was a validation error. Please check the post data.",
+    "CF_API_ERROR": "There was an error when sending the contact form.",
+    "CF_API_SENT": "The contact form was sent successfully.",
+    "CF_CLIENT_ERROR": "An error occured when contacting the server. Please try again later.",
+    "CF_CLIENT_SUCCESS": "Thank you for your inquiry.",
+    "CF_CLIENT_SENDING": "Sending..."
+}
