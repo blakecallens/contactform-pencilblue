@@ -14,7 +14,7 @@ Installation and Setup
 
 2. Install the contactform-pencilblue plugin through the manage plugins screen in the admin section (/admin/plugins).
 
-3. Go to the contactform-pencilblue settings screen (/admin/plugins/contactform-pencilblue/settings) and set the following options:
+3. Go to the contactform-pencilblue settings screen and setup the following options: (/admin/plugins/contactform-pencilblue/settings)
 
     Setting         | Description               | Default                                        
     ----------------|---------------------------|------------------------------------------
