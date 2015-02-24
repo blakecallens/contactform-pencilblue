@@ -2,7 +2,7 @@
     "uid": "contactform-pencilblue",
     "name": "Contact Form",
     "description": "Display a contact form on your PencilBlue site.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": {
         "name": "Alex Curtis",
         "email": "alx.curtis@gmail.com"
