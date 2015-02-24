@@ -72,10 +72,10 @@ ContactForm.prototype.sendEmail = function(data, callback){
 ContactForm.prototype.getSettings = function(callback){
     async.parallel({
         to: function(cb){
-            pb.plugins.getSetting('email_to', 'contact_form', cb);
+            pb.plugins.getSetting('email_to', 'contactform-pencilblue', cb);
         },
         template: function(cb){
-            pb.plugins.getSetting('email_template', 'contact_form', cb);
+            pb.plugins.getSetting('email_template', 'contactform-pencilblue', cb);
         },
     }, callback);
 };

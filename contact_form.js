@@ -39,12 +39,12 @@ Fidelity.onUninstall = function(cb) {
  */
 Fidelity.onStartup = function(cb) {
     pb.TemplateService.registerGlobal('contact_form_css', function(flag, cb) {
-        pb.plugins.getSetting('css', 'contact_form', function(err, css) {
+        pb.plugins.getSetting('css', 'contactform-pencilblue', function(err, css) {
             cb(err, css);
         });
     });
     pb.TemplateService.registerGlobal('contact_form_phone', function(flag, cb) {
-        pb.plugins.getSetting('show_phone', 'contact_form', function(err, showPhone) {
+        pb.plugins.getSetting('show_phone', 'contactform-pencilblue', function(err, showPhone) {
             cb(err, !showPhone ? 'display: none' : '');
         });
     });
